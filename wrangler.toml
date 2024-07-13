@@ -1,5 +1,5 @@
 compatibility_date = "2023-05-18"
-name = "sonic-feed"
+name = "sonicjs"
 workers_dev = true
 main = "src/server.ts"
 
@@ -12,14 +12,14 @@ account_id = "4ebc2a44d6307218371c62342678b2f6"
 # Run the `wrangler kv:namespace create sonicjs --preview` command and copy the preview_id below
 # Only update the preview_id and id, leave the binding name as "KVDATA"
 kv_namespaces = [
-  { binding = "KVDATA", preview_id="d08d7b86902944b384d83e2288414819", id = "f8d34e9c86da49fe9d569068f7c30c36" }
+  { binding = "KVDATA", preview_id="ad64e24b2b39486590aec4d70df9952f", id = "d2aad064476740118174bd6102f3db25" }
 ]
 
 # Run the `wrangler d1 create sonicjs` command and copy the id below
 [[d1_databases]]
 binding = "D1DATA"
 database_name = "sonicjs"
-database_id = "c35c54b9-37fe-44a2-97f5-ff47fc17248d"
+database_id = "cbc0f103-3368-4dbe-afb3-24564385fbe7"
 
 # Using Cloudflare R2 (similar to AWS S3) is only necessary if you plan to use SonicJs to manage file assets
 # Run the `wrangler r2 bucket create sonicjs` command and uncomment the section below
