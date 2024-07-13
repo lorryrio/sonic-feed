@@ -2,6 +2,7 @@ compatibility_date = "2023-05-18"
 name = "sonicjs"
 workers_dev = true
 main = "src/server.ts"
+pages_build_output_dir = "./sonicjs/dist"
 
 # Enter your account id
 # This can be found at https://dash.cloudflare.com/ --> Workers & Pages
