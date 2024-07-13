@@ -8,9 +8,9 @@ import { Hono } from 'hono';
 
 const example = new Hono();
 
-// example.get('/', (ctx) => {
-//   return ctx.text('Hello SonicJs!');
-// });
+example.get('/', (ctx) => {
+  return ctx.text('Hello SonicJs!');
+});
 //
 // example.get('/users', async (ctx) => {
 //   var params = qs.parse(ctx.req.query());
