@@ -1,8 +1,8 @@
 compatibility_date = "2023-05-18"
 name = "sonicjs"
 workers_dev = true
-# main = "/sonicjs/src/server.ts"
-pages_build_output_dir = "/sonicjs/dist"
+main = "/sonicjs/src/server.ts"
+# pages_build_output_dir = "/sonicjs/dist"
 account_id = "4ebc2a44d6307218371c62342678b2f6"
 
 kv_namespaces = [
