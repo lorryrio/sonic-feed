@@ -1,16 +1,13 @@
 compatibility_date = "2023-05-18"
 name = "sonicjs"
 workers_dev = true
-main = "/sonicjs/src/server.ts"
+# main = "/sonicjs/src/server.ts"
 pages_build_output_dir = "/sonicjs/dist"
 account_id = "4ebc2a44d6307218371c62342678b2f6"
 
-kv_namespaces = [{binding = "KVDATA", preview_id="ad64e24b2b39486590aec4d70df9952f", id = "d2aad064476740118174bd6102f3db25"}]
+kv_namespaces = [
+  {binding = "KVDATA", preview_id="ad64e24b2b39486590aec4d70df9952f", id = "d2aad064476740118174bd6102f3db25"}
+]
 binding = "D1DATA"
 database_name = "sonicjs"
 database_id = "cbc0f103-3368-4dbe-afb3-24564385fbe7"
-
-vars = { ENVIRONMENT = "production" }
-
-[env.development]
-vars = { ENVIRONMENT = "development" }
